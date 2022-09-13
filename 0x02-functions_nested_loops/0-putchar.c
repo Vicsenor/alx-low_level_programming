@@ -1,18 +1,19 @@
-#include "main.h"
+#include "holberton.h"
 /**
- *  * main - Print "Holberton" followed by a new line.
- *   * Description: You are not allowed to include standard libraries.
- *    * Return: 0
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
  *     */
 int main(void)
 {
-	int c = 0;
-	char holberton[10] = "_putchar\n";
+		char *sh = "Holberton";
 
-	while (c < 9)
-	{
-		_putchar(holberton[c]);
-		c++;
-	}
-	return (0);
+			while (*sh)
+					{
+								_putchar(*sh);
+										sh++;
+											}
+				_putchar('\n');
+
+					return (0);
 }
