@@ -1,31 +1,25 @@
 #include "main.h"
 /**
-*print_sign - sign of a number.
-*@n: input.
-*
-*Return: 1 and print + if n > 1
-* 0 and print 0 if n = 0
-*       * -1 and print - if n < 0
-*        */
-int print_sign(int n)
+*  *_abs - absolute value of a number.
+*   *@n: input.
+*    *
+*     *Return: absolute value
+*      *
+*       */
+int _abs(int n)
 
 {
-	int result;
-
 	if (n > 0)
 	{
-		_putchar('+');
-		result = 1;
+		n = n * 1;
 	}
 	if (n == 0)
 	{
-		_putchar('0');
-		result = 0;
+		n = 0;
 	}
 	if (n < 0)
 	{
-		_putchar('-');
-		result = -1;
+		n = n * -1;
 	}
-	return (result);
+	return (n);
 }
