@@ -1,10 +1,9 @@
 #include "main.h"
 /**
-*  *print_alphabet - abcd
-*   *Description: print lowercase alphabet
-*    *Return: void.
-*   
-*  */
+*print_alphabet - abcd
+*Description: print lowercase alphabet
+*Return: void.   
+*/
 void print_alphabet(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
