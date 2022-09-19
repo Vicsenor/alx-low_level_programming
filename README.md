@@ -1,1 +1,1 @@
-files
+Arrays, pointers and strings
