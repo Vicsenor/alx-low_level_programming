@@ -12,7 +12,7 @@ char *string_toupper(char *s)
 	{
 		if ((*(s + num) >= 97) && (*(s + num) <= 122))
 			*(s + num) = *(s + num) - 32;
-			num++;
+		num++;
 	}
 	return (s);
 }
